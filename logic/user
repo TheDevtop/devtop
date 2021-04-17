@@ -1,0 +1,17 @@
+# User Logic Module
+
+# Setup directories
+mkdir -p $HOME/.config/{alacritty,gtk-3.0,i3,rofi}
+mkdir -p $HOME/.config/xfce4/xfconf/xfce-perchannel-xml
+
+# Setting up files
+echo "exec i3" > $HOME/.xinitrc
+cp data/user/bashrc $HOME/.bashrc
+cp data/user/gtk2 $HOME/.gtkrc-2.0
+cp data/user/i3 $HOME/.config/i3/config
+cp data/user/alacritty $HOME/.config/alacritty/alacritty.yml
+cp data/user/gtk $HOME/.config/gtk-3.0/settings.ini
+cp data/user/rofi $HOME/.config/rofi/config.rasi
+cp data/user/devtop.rasi $HOME/.config/rofi/devtop.rasi
+cp data/user/panel $HOME/.config/xfce/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+
