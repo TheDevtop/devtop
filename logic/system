@@ -1,7 +1,7 @@
 # System Logic Module
 
 # Installing package
-pacman -S --noconfirm networmanager ufw xorg-xinit \
+pacman -S --noconfirm networkmanager ufw xorg-xinit \
 pulseaudio pulseaudio-alsa pavucontrol \
 lightdm lightdm-gtk-greeter light-locker
 
@@ -12,4 +12,8 @@ xfce4-battery-plugin xfce4-panel xfce4-pulseaudio-plugin
 # Enable services
 systemctl enable NetworkManager
 systemctl enable lightdm
+
+# Copy config files
+cp data/system/issue /etc/issue
+cp data/system/lightdm /etc/lightdm/lightdm-gtk-greeter.conf
 

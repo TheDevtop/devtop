@@ -1,0 +1,16 @@
+# DEVTOP SHELL
+
+# Interactive check
+[[ $- != *i* ]] && return
+
+# Exports
+export PS1="[\\$] "
+export PAGER=less
+export EDITOR=vim
+
+# Aliases
+alias ls='ls --color=auto'
+alias la='ls -lhA --color=auto'
+alias grep='grep --color=auto'
+alias rf='rm -rf'
+alias edit='$EDITOR'

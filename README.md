@@ -2,10 +2,8 @@
 
 My configuration script for Arch Linux desktop systems.
 
-### Backstory:
+### Usage:
 
 ### Packages:
-
-### Installation:
 
 ### Screenshot:
