@@ -9,8 +9,8 @@ gaps outer 2
 gaps inner 4
 
 # Startup
-exec --no-startup-id xrandr --output HDMI2 --auto --output eDP1 --off
 exec --no-startup-id light-locker
+exec --no-startup-id xrandr --output HDMI2 --auto --output eDP1 --off
 exec --no-startup-id xfce4-panel --disable-wm-check
 
 # Launcher
@@ -43,14 +43,14 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+space floating toggle
 
 # Border settings & colors
-default_border none
+default_border pixel 1
 default_floating_border normal
 
 # Type                  Border              Background         Text                Indicator
-client.focused          #2F343F             #2F343F            #F3F4F5             #00FF00
-client.unfocused        #2F343F             #2F343F            #676E7D             #00FF00
-client.focused_inactive #2F343F             #2F343F            #676E7D             #00FF00
-client.urgent           #E53935             #E53935            #F3F4F5             #00FF00
+client.focused          #8AB4F8             #8AB4F8            #121212             #8AB4F8
+client.urgent           #E53935             #E53935            #F3F4F5             #E53935
+client.unfocused        #343434             #343434            #EEEEEE             #343434
+client.focused_inactive #343434             #343434            #EEEEEE             #343434
 
 # Workspaces
 set $ws1 "1"

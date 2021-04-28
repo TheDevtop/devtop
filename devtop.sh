@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Program: DEVTOP
-# Version: 0.4
+# Version: 0.5
 # Authors: Thijs Haker
 
 # Hello World!

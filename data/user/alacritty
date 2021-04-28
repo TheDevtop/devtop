@@ -7,7 +7,7 @@ font:
         style: Regular
     bold:
         family: Terminus
-        style: Regular
+        style: Bold
 
     italic:
         family: Terminus
@@ -31,12 +31,12 @@ cursor:
 colors:
   # Default colors
   primary:
-    background: '0x222D32'
+    background: '0x121212'
     foreground: '0xEEEEEE'
 
   # Normal colors
   normal:
-    black:   '0x222D32'
+    black:   '0x121212'
     red:     '0xEA4335'
     green:   '0x34A853'
     yellow:  '0xFBBC05'

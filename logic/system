@@ -1,19 +1,21 @@
 # System Logic Module
 
 # Installing package
-pacman -S --noconfirm networkmanager ufw xorg-xinit \
+pacman -S --noconfirm bash bash-completion networkmanager ufw htop xorg-xinit \
 pulseaudio pulseaudio-alsa pavucontrol \
 lightdm lightdm-gtk-greeter light-locker
 
-pacman -S --noconfirm i3-gaps adapta-gtk-theme papirus-icon-theme terminus-font \
+pacman -S --noconfirm i3-gaps materia-gtk-theme papirus-icon-theme terminus-font \
 alacritty lxrandr-gtk3 rofi xclip \
 xfce4-battery-plugin xfce4-panel xfce4-pulseaudio-plugin
 
 # Enable services
 systemctl enable NetworkManager
+systemctl enable ufw
 systemctl enable lightdm
 
 # Copy config files
 cp data/system/issue /etc/issue
 cp data/system/lightdm /etc/lightdm/lightdm-gtk-greeter.conf
-
+cp data/system/bashrc /root/.bashrc
+cp data/system/bashrc /root/.profile
