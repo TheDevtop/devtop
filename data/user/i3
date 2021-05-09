@@ -10,7 +10,6 @@ gaps inner 4
 
 # Startup
 exec --no-startup-id light-locker
-exec --no-startup-id xrandr --output HDMI2 --auto --output eDP1 --off
 exec --no-startup-id xfce4-panel --disable-wm-check
 
 # Launcher

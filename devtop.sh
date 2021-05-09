@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Program: DEVTOP
-# Version: 0.5
+# Version: 1.0
 # Authors: Thijs Haker
 
-# Hello World!
+# Show DEVTOP artwork
 clear ; cat data/system/issue
 
 # Check if root and/or sudo

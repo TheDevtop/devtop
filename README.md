@@ -7,7 +7,7 @@ My configuration script for Arch Linux desktop systems.
 1. Download the latest release of this repository.
 2. Extract this repository.
 3. Execute the devtop.sh file.
-4. Answer to the given questions.
+4. Answer the given questions.
 5. Enjoy!
 
 ### Packages:
@@ -21,6 +21,3 @@ My configuration script for Arch Linux desktop systems.
 * Icon Theme: Papirus
 * Launcher: Rofi
 * Panel: Xfce Panel
-* Monitor: Htop
-
-### Screenshot:
