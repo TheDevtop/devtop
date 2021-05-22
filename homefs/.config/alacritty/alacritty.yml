@@ -1,0 +1,61 @@
+# DEVTOP ALACRITTY
+
+# Font
+font:
+    normal:
+        family: Terminus
+        style: Regular
+    bold:
+        family: Terminus
+        style: Bold
+
+    italic:
+        family: Terminus
+        style: Regular
+
+    size: 10
+
+env:
+    TERM: xterm
+    WINIT_X11_SCALE_FACTOR: "1"
+
+window:
+    title: Terminal
+
+scrolling:
+    history: 512
+
+cursor:
+    style: Block
+
+#Colors (Gotham)
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xBDE6FB'
+
+  # Normal colors
+  normal:
+    black: '0x0a0f14'
+    red: '0xc33027'
+    green: '0x26a98b'
+    yellow: '0xedb54b'
+    blue: '0x195465'
+    magenta: '0x4e5165'
+    cyan: '0x33859d'
+    white: '0x98d1ce'
+
+  # Bright colors
+  bright:
+    black: '0x10151b'
+    red: '0xd26939'
+    green: '0x081f2d'
+    yellow: '0x245361'
+    blue: '0x093748'
+    magenta: '0x888ba5'
+    cyan: '0x599caa'
+    white: '0xd3ebe9'
+
+key_bindings:
+    - { key: T, mods: Control|Shift, action: SpawnNewInstance }
